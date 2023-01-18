@@ -4,7 +4,7 @@ import './globals.css'
 import Head from './head'
 import About from '../../components/About'
 import Skills from '../../components/Skills'
-
+import Projects from '../../components/Projects';
 function Home() {
   return (
     <div>
@@ -13,6 +13,7 @@ function Home() {
       <Main />
       <About />
       <Skills />
+      <Projects />
     </div>   
 
   )
