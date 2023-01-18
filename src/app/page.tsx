@@ -3,15 +3,19 @@ import Main from '../../components/Main'
 import './globals.css'
 import Head from './head'
 import About from '../../components/About'
+import Skills from '../../components/Skills'
 
-export default function Home() {
+function Home() {
   return (
     <div>
       <Head />
       <Navbar/>
       <Main />
       <About />
+      <Skills />
     </div>   
 
   )
 }
+
+export default Home;
