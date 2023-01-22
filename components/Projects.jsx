@@ -14,22 +14,22 @@ const Projects = () => {
                 <Projectitems 
                     title='Property Finder' 
                     backgroundImg={propertyImg} 
-                    propertyUrl='/property' 
+                    projectUrl='/property'
                 />
                 <Projectitems 
                     title='Crypto App' 
                     backgroundImg={cryptoImg} 
-                    propertyUrl='/property' 
+                    projectUrl='/property' 
                 />
                 <Projectitems 
                     title='Netflix' 
                     backgroundImg={netflixImg} 
-                    propertyUrl='/property' 
+                    projectUrl='/property' 
                 />
                 <Projectitems 
                     title='Twitch' 
                     backgroundImg={twitchImg} 
-                    propertyUrl='/property' 
+                    projectUrl='/property' 
                 />
             </div>
         </div>

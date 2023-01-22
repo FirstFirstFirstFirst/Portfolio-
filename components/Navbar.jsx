@@ -16,14 +16,14 @@ const Navbar = () => {
     
     useEffect(()=> {
         const handleShadow = () => {
-            if(window.scrollY >= 80){
+            if(window.scrollY >= 90){
                 setShadow(true);
             } else {
             setShadow(false);
-            } 
-            window.addEventListener('scroll', handleShadow)
-        }
-    }, [])
+            }     
+        };
+        window.addEventListener('scroll', handleShadow);
+    }, []);
 
     return (
         <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
@@ -44,10 +44,10 @@ const Navbar = () => {
                         <Link href='/#about'>
                             <li className="ml-10 text-sm uppercase hover:border-b">About</li>
                         </Link>
-                        <Link href='/#skills' >
+                        <Link href='/#skills'>
                             <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
                         </Link>
-                        <Link href='/#projects' >
+                        <Link href='/#projects'>
                             <li className="ml-10 text-sm uppercase hover:border-b">Projects</li>
                         </Link>
                         <Link href='/#contact'>
